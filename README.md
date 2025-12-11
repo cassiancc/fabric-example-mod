@@ -8,7 +8,7 @@ For setup instructions please see the [fabric documentation page](https://docs.f
 
 If you're feeling experimental, Fabric is currently testing a no-remap version of Loom that can be used on the experimental releases. For most, the process should be as simple.
 
-- Change the version of Loom you are using to `id "net.fabricmc.fabric-loom" version "1.14.0-SNAPSHOT"`
+- Change the version of Loom you are using to `id "net.fabricmc.fabric-loom" version "1.14-SNAPSHOT"`
 - Update Fabric Loader to 0.18.1 or above
 - Remove the `mappings` line from your `build.gradle`
 - Replace any instances of `modImplementation` or `modCompileOnly` with `implementation` and `compileOnly`
